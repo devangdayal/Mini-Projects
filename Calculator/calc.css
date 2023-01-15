@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body {
+    background-image: repeating-linear-gradient(
+        -45deg,
+        transparent 30px,
+        rgb(231, 246, 245) 20px,
+        rgb(197, 246, 182) 40px
+      );
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+  opacity: 0;
+}
+.button{
+    font-size: 20px;
+    background-image: linear-gradient(to right,rgb(255, 254, 254), rgb(255, 254, 237));
+}
+
+
+
+.row input{
+    font-size: 22px;
+    background-image: linear-gradient(to right, rgba(186, 249, 185, 0.936), rgb(223, 248, 248));
+}
+
+
+.input{
+    padding: 10px 50px;
+    margin: 0px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+/* .container{
+    background-image: linear-gradient(to right,rgb(206, 211, 246), rgb(100, 243, 217));
+} */
+
+.resultscreen{
+    background-color: aliceblue;
+    font-size: 20px;
+
+
+}

@@ -1,0 +1,75 @@
+.text-center{
+    text-align: center;
+}
+
+.m-w-auto{
+    max-width: auto;
+}
+
+.flex{
+    display: flex;
+
+}
+
+.button, .button-symbol{
+    padding: 15px ;
+    margin: 5px 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer; 
+    width: 55px;
+    align-items: center;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.row input{
+    margin: 2px;
+    text-align: right;
+    height: 30px;
+    width: 215px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.mx-auto{
+    margin: auto;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+
+.format-heading{
+   
+    padding-top: 10px;
+}
+
+.container{
+    padding : 10px 10px
+}
+
+.resultscreen{
+    margin: 10px;
+    padding: 10px;
+    height: 40px;
+    width: 210px
+}
+
